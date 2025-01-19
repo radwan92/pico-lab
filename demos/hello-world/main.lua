@@ -9,7 +9,7 @@ Text = {
     len = print("hello, world!"),
 
     update = function(self)
-        self.x += 1
+        self.x = self.x + 1
 
         if self.x > 127 then
             self.x = 0

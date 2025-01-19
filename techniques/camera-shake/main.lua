@@ -1,6 +1,6 @@
--- title:       camera shake
--- description: a simple example of how to implement camera shake in pico-8
--- origin:      lazydevs pico-8 hero - https://www.youtube.com/watch?v=GhIpA03VD-c 
+-- title:       Camera Shake
+-- description: A simple example of how to implement camera shake in pico-8
+-- origin:      LazyDevs Pico-8 Hero - https://www.youtube.com/watch?v=GhIpA03VD-c 
 
 Cam = {
     x = 0,

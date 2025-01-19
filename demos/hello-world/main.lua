@@ -1,5 +1,5 @@
--- title:       hello, world!
--- description: simple program to print scrolling text
+-- title:       Hello, world!
+-- description: Simple program to print scrolling text.
 
 Text = {
     x = 0,

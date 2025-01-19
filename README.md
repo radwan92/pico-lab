@@ -12,3 +12,4 @@ This is a collection of Pico-8 demos, techniques and tools that I've created or 
 ## Techniques
 
 - [**Camera shake**](https://radwan92.github.io/pico-lab/techniques/camera-shake/camera-shake.html): Shakes the camera.
+- [**Water Tile Waves**](https://radwan92.github.io/pico-lab/techniques/water-tile-waves/water-tile-waves.html): Water tile waves effect.

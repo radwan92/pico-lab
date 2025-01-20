@@ -1026,6 +1026,10 @@ function cstore(DEST_ADDR, SOURCE_ADDR, LEN, FILENAME) end
 -- ```
 -- MEMSET(0x6000, 0xC8, 0x1000)
 -- ```
+---@param DEST_ADDR number
+---@param VAL number
+---@param LEN number
+function memset(DEST_ADDR, VAL, LEN) end
 
 
 -- =======================================================================

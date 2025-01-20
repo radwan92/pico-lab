@@ -8,6 +8,8 @@ This is a collection of Pico-8 demos, techniques and tools that I've created or 
     Rolling "hello world" text.
 - [**Player movement**](https://radwan92.github.io/pico-lab/demos/player-movement/player-movement.html): 
     Player that can move around the screen using arrow keys.
+- [**Doom fire**](https://radwan92.github.io/pico-lab/demos/doom-fire/doom-fire.html): 
+    Doom fire effect based on Fabien Sanglard's [article](https://fabiensanglard.net/doom_fire_psx/).
 
 ## Techniques
 

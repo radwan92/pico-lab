@@ -674,7 +674,8 @@ function pairs(TBL) return nil end
 -- ```
 --- @param B? number
 --- @param PL? number
-function btn(B, PL) return 0 end
+--- @return boolean
+function btn(B, PL) return false end
 
 -- BTNP(B, [PL])
 --

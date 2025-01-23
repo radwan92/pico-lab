@@ -108,6 +108,7 @@ end
 --- @class SimpleMenu
 --- @field entries SMEntry[]
 --- @field selected integer
+--- @field enabled boolean
 --- @field enabled_fn fun():boolean
 --- @field select_fn fun()
 SimpleMenu = {}
@@ -130,11 +131,13 @@ end
 --- @return SimpleMenu
 function SimpleMenu:with_enabled(enabled)
     if type(enabled) == "boolean" then
+        self.enabled = enabled
         self.enabled_fn = function ()
             return enabled
         end
     else
         self.enabled_fn = enabled
+        self.enabled = enabled()
     end
     return self
 end
@@ -170,7 +173,8 @@ function SimpleMenu:add_entry(name, control)
 end
 
 function SimpleMenu:update()
-    if not self.enabled_fn() then
+    self.enabled = self.enabled_fn()
+    if not self.enabled then
         return
     end
 
@@ -182,7 +186,7 @@ function SimpleMenu:update()
 end
 
 function SimpleMenu:draw()
-    if not self.enabled_fn() then
+    if not self.enabled then
         if self.disabled_draw_fn then
             self.disabled_draw_fn()
         end

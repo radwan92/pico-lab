@@ -21,3 +21,5 @@ This is a collection of Pico-8 demos, techniques and tools that I've created or 
     Moving to target with spring-damping effect.
 - [**Smoke Puff**](https://radwan92.github.io/pico-lab/techniques/smoke-puff/smoke-puff.html): 
     Smoke puff effect.
+- [**Tiled Screen Transition**](https://radwan92.github.io/pico-lab/techniques/tiled-screen-transition/tiled-screen-transition.html): 
+    Diagonal, tile-flipping-like screen transition, using sprites.
